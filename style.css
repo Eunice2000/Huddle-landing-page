@@ -1,0 +1,138 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    height:100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400px;
+    background-image: url(images/bg-desktop.svg);
+    background-color: hsl(228, 45%, 44%);
+}
+.hero{
+    display: flex;
+    padding: 25px 30px;
+}
+.logo{
+    padding-top: 40px;
+    padding-left: 50px;
+}
+.hero-text{
+padding-left: 80px; 
+font-size: 20px;
+color: white;
+ padding-top: 50px;
+line-height: 1.5;
+
+}
+h1{
+    justify-content: space-between;
+}
+p{
+    padding-top: 20px;
+}
+
+button{
+    width:40%;
+    padding:15px 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border-style: hidden;
+}
+button a{
+    text-decoration: none;
+    color:hsl(257, 40%, 49%);
+}
+button:hover{
+    color:white;
+    background-color: hsl(300, 69%, 71%);
+}
+.icons{
+    text-align:right;
+    margin-bottom: 40px;
+    margin-right: 50px;
+}
+.icons i{
+    text-decoration: none;
+    border:1px solid white;
+    border-radius: 50%;
+    border-color: white;
+    padding:5px; 
+     color: white;  
+}
+.icons i:hover{
+    background-color: hsl(300, 69%, 71%);
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    color:white;
+    margin-bottom: 200px;
+   
+ }
+@media only screen and (max-width:500px){
+    body{
+        background-image: url(images/bg-desktop.svg);
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+    .hero{
+    display: flex;
+    padding: 10px 10px;
+    flex-direction: column;
+}
+.hero-text{
+    text-align: center;
+    padding-left: 10px; 
+    padding-right: 10px;
+    font-size: 15px;
+    color: white;
+    padding-top: 50px;
+    line-height: 1.5;
+}
+button {
+    width:70%;
+    padding:15px 20px;
+    margin-top: 20px;
+    border-radius: 30px;
+    border-style: hidden;
+    
+}
+button a:active{
+    text-decoration: none;
+    color:black;
+    background-color: hsl(228, 45%, 44%); 
+}
+.icons {
+    text-align:center;
+    margin-bottom: 25px;
+   
+  
+}
+.icons i{
+    text-decoration: none;
+    border:1px solid white;
+    border-radius: 50%;
+    border-color: white;
+    padding:5px; 
+     color: white; 
+}
+.attribution a { 
+    font-size: 13px; 
+    text-align: center;
+    color:white;
+    margin-bottom: 20px;
+    text-decoration: none;
+ }
+    .attribution a:active {
+    color: hsl(228, 45%, 44%); 
+        
+     }
+}

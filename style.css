@@ -69,15 +69,12 @@ button:hover{
 .icons i:hover{
     background-color: hsl(300, 69%, 71%);
 }
-.attribution{ 
-    font-size: 20px; 
+.attribution a { 
+    font-size: 13px; 
     text-align: center;
     color:white;
-    margin-bottom: 200px;   
- }
- a{
+    margin-bottom: 20px;
     text-decoration: none;
-    text-align: center;
  }
 @media only screen and (max-width:500px){
     body{
@@ -127,12 +124,17 @@ button a:active{
     padding:5px; 
      color: white; 
 }
-.attribution a { 
-    font-size: 13px; 
+.attribution  { 
+    font-size: 11px;
     text-align: center;
     color:white;
     margin-bottom: 20px;
     text-decoration: none;
+
+ }
+ a{
+    color: white;
+    font-size: 10px;
  }
     .attribution a:active {
     color: hsl(228, 45%, 44%); 

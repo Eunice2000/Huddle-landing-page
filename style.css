@@ -69,8 +69,8 @@ button:hover{
 .icons i:hover{
     background-color: hsl(300, 69%, 71%);
 }
-.attribution { 
-    font-size: 30px; 
+.attribution a{ 
+    font-size: 20px; 
     text-align: center;
     color:white;
     margin-bottom: 200px;
